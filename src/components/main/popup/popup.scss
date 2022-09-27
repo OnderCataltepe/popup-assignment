@@ -1,0 +1,62 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 62rem;
+  height: 47rem;
+  background-color: white;
+  position: relative;
+  padding: 6rem 0rem;
+  text-align: center;
+  button {
+    background-color: #639005;
+    cursor: pointer;
+  }
+  button:hover {
+    background-color: #76ac01;
+  }
+  > button {
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+    background-color: #639005;
+    transform: rotate(45deg);
+    color: white;
+    padding: auto;
+    font-size: 3rem;
+    font-weight: lighter;
+    border: none;
+    position: absolute;
+    right: 1.5rem;
+    top: 1.5rem;
+  }
+  > h2 {
+    font-size: 6rem;
+    width: 60%;
+  }
+  > p {
+    font-size: 2rem;
+    width: 50%;
+    margin-bottom: 2rem;
+  }
+  form {
+    width: 50%;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: space-between;
+
+    input,
+    button {
+      padding: 1rem;
+      font-size: 1.4rem;
+      border: none;
+    }
+
+    input {
+      background-color: #ededed;
+      outline-color: #76ac01;
+    }
+  }
+}
